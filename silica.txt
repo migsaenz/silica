@@ -2,7 +2,7 @@ Useful to Remember
 Tlatayaxalli: Diamond Sand
 Istaktepetl: White Mountain
 Kalli: House
-Tsakualli: Pyramid
+Teocalli: Pyramid (God House)
 Nepohualtzintzin: abacus (Codex Nepohualtzintzin is our helpful AI narrator in our suit)
 Tlamacazqui: priest
 Tepostli: Metal (their name for the silicon?)
@@ -27,3 +27,21 @@ pioneered the purification process to make silica from silicon and vice versa, a
 second society that established all the new orders and destroyed the planet with bad 
 substance management that aerosolized silica and made the planet uninhabitable without
 a Cuahtli suit and respirator. 
+
+Instead of using a memory codex on the player:
+	say "You insert the [noun] into your suit's interface port. After a moment, Nezin's voice speaks in your ear:[paragraph break][italic type][memory content of the noun][roman type][paragraph break]";
+	if the codex id of the noun is 1:
+		now the Higher Ridge is discovered;
+		say "[italic type]I have updated your navigation systems. I detect a possible shelter on the higher ridge to the west of Tepetentli. It may contain useful resources.[roman type]";
+	if the codex id of the noun is 2:
+		now the Abandoned Habitation is discovered;
+		say "[italic type]This data correlates with unusual readings I'm detecting from the abandoned worker habitation to the north of the Nohpalli Road. We should investigate there.[roman type]";
+	if the codex id of the noun is 3:
+		now the Teocalli Processing Center is discovered;
+		say "[italic type]The evacuation records indicate that not all workers complied. A significant group barricaded themselves in the Teocalli Processing Center south of the Nohpalli Fields.[roman type]";
+	if the codex id of the noun is 4:
+		move the Coatlcircuit to the Inner Sanctum;
+		say "[italic type]Warning: I am detecting massive energy readings from the Inner Sanctum. The entity designated 'Coatlcircuit' may have formed there. Proceed with extreme caution.[roman type]";
+	if the codex id of the noun is 5:
+		say "[italic type]This appears to be the final piece of the historical record. The Ritual of Ascension mentioned in previous codices might be performed in the Inner Sanctum using the five memory codices.[roman type]";
+	remove the noun from play.

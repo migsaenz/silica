@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+
+<Skein rootNode="node-1002">
+    <generator>Inform Mac Client (Inform version 1.82/6.41/10.1.2)</generator>
+    <item nodeId="node-1002">
+        <command xml:space="preserve">Silica</command>
+        <result xml:space="preserve">
+
+
+
+Silica: The Third Sun
+An Interactive Fiction by Miguel Saenz
+Release 1 / Serial number 250411 / Inform 7 v10.1.2 / D
+
+Peak of Istaktepetl
+Large, coarse grains of sand, mostly a shimmering, unnatural white, brush over the mounds beneath your feet and your boots alike. The sun beats down on your suit and eats away at the exposed back of your neck. You peer out and see a shaded cave outcropping just to the North.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1009"></child>
+            <child nodeId="node-1004"></child>
+            <child nodeId="node-1003"></child>
+        </children>
+    </item>
+    <item nodeId="node-1003">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+rough cliffside
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1004">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+The Shimmer
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1005"></child>
+        </children>
+    </item>
+    <item nodeId="node-1005">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+The Towering Dune
+Large, course grains of sand, mostly a shimmering, unnatural white, brush over the ground and your boots alike. The sun beats down on your suit and eats away at the exposed back of your neck. You peer out and see cliffs to the West, palms in the distant East, and a shimmer just to the North.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1006"></child>
+        </children>
+    </item>
+    <item nodeId="node-1006">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+The Palm Road
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1007"></child>
+        </children>
+    </item>
+    <item nodeId="node-1007">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+The Towering Dune
+Large, course grains of sand, mostly a shimmering, unnatural white, brush over the ground and your boots alike. The sun beats down on your suit and eats away at the exposed back of your neck. You peer out and see cliffs to the West, palms in the distant East, and a shimmer just to the North.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1008"></child>
+        </children>
+    </item>
+    <item nodeId="node-1008">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Rough Cliffside
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1009">
+        <command xml:space="preserve">look around</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1010"></child>
+        </children>
+    </item>
+    <item nodeId="node-1010">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Peak of Istaktepetl
+Large, coarse grains of sand, mostly a shimmering, unnatural white, brush over the mounds beneath your feet and your boots alike. The sun beats down on your suit and eats away at the exposed back of your neck. You peer out and see a shaded cave outcropping just to the North.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1011"></child>
+        </children>
+    </item>
+    <item nodeId="node-1011">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Ximopoua Cave
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1012"></child>
+        </children>
+    </item>
+    <item nodeId="node-1012">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Ximopoua Cave
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1013"></child>
+        </children>
+    </item>
+    <item nodeId="node-1013">
+        <command xml:space="preserve">exit</command>
+        <result xml:space="preserve">But you aren't in anything at the moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1014"></child>
+        </children>
+    </item>
+    <item nodeId="node-1014">
+        <command xml:space="preserve">kill self</command>
+        <result xml:space="preserve">Violence isn't the answer to this one.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+</Skein>
